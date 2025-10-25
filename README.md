@@ -44,29 +44,9 @@ ORM / Database Layer	Hibernate (JPA)
 Database	MySQL / PostgreSQL
 Build Tool	Maven
 Server	Apache Tomcat (embedded in Spring Boot)
-📂 Project Structure
-ecommerce-springboot/
-│
-├── src/
-│   ├── main/
-│   │   ├── java/com/demo/
-│   │   │   ├── controller/       # Handles web requests (CRUD)
-│   │   │   ├── model/            # Entity classes (Product, User, Order)
-│   │   │   ├── repository/       # Hibernate JPA repositories
-│   │   │   └── service/          # Business logic layer
-│   │   ├── resources/
-│   │   │   ├── application.properties  # DB config, port, etc.
-│   │   │   └── templates/        # JSP pages (views)
-│   │   └── webapp/
-│   │       └── WEB-INF/jsp/      # JSP files (Home, Admin, Product, etc.)
-│   └── test/                     # Unit tests
-│
-├── pom.xml                       # Maven dependencies
-└── README.md                     # Project documentation
-
-
 
 Mysql Database setup:-
+
 crate a databse named "user_db"
 create a user table in user_db
 CREATE TABLE users (
